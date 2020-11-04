@@ -4,7 +4,7 @@ This repository aims to aid those who would like to connect an Arduino uno and a
 
 ## Concept 
 
-The purpose of the project is to be able use the GPIO pins of raspi (3.3V tolerant)to perform serial communication with an Arduino uno which runs at a higher voltage (5V). The most widely advised solution is to use a logic level shifter but this is not a cheap way. THe method used for the project was to make a Voltage divider circuit with simpl and chep resistors to bring down the votage from the Arduino Tx line.
+The purpose of the project is to be able use the GPIO pins of raspi (3.3V tolerant)to perform serial communication with an Arduino uno which runs at a higher voltage (5V). The most widely advised solution is to use a logic level shifter but this is not a cheap way. The method used for the project was to make a Voltage divider circuit with simpl and chep resistors to bring down the votage from the Arduino Tx line.
 
 ## Serial Comm
 
@@ -12,4 +12,14 @@ A short note on Serial Communication. In this type of comm there exists a total 
 
 ## Physical circuitry
 
-The solution I had come up with was inspired link[from Oscar Liang](https://oscarliang.com/raspberry-pi-and-arduino-connected-serial-gpio/). This article discusses other techniques too and I stronlgy recommend reading it.
+The solution I had come up with was inspired link [from Oscar Liang](https://oscarliang.com/raspberry-pi-and-arduino-connected-serial-gpio/). This article discusses other techniques too and I stronlgy recommend reading it.
+
+![](images/live.jpg?raw=true)
+
+For a more clear understading the fritzing diagram form the link mentioned earlier.
+
+![](images/ardu2raspi.png?raw=true)
+
+Once you run the programs on the arduino and raspi after correctly connecting the ports, one can monitor it via the serial monitpr provided by arduino through another computer, example of how it will look.
+
+![](images/sample_function.png?raw=true)
