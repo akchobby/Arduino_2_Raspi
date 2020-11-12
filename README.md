@@ -1,5 +1,5 @@
 # Arduino_2_Raspi
-This repository aims to aid those who would like to connect an Arduino uno and a Raspberry pi 3 via serial communication the harder way ;).
+This repository aims to aid those who would like to connect an Arduino uno and a Raspberry pi 3 via serial communication (UART) the harder way ;).
 
 ## Concept 
 The purpose of the project is to be able use the GPIO pins of raspi (3.3V tolerant)to perform serial communication with an Arduino uno which runs at a higher voltage (5V). The most widely advised solution is to use a logic level shifter but this is not a cheap way. The method used for the project was to make a Voltage divider circuit with simpl and chep resistors to bring down the votage from the Arduino Tx line.
