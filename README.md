@@ -10,7 +10,7 @@ A short note on Serial Communication. In this type of comm there exists a total 
 ### Physical circuitry
 The solution I had come up with was inspired link [from Oscar Liang](https://oscarliang.com/raspberry-pi-and-arduino-connected-serial-gpio/). This article discusses other techniques too and I strongly recommend reading it.
 
-![](images/live.jpg?raw=true)
+![](images/live_circuit.jpg?raw=true)
 
 For a more clear understanding the fritzing diagram form the link mentioned earlier.
 
